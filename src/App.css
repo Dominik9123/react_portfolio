@@ -1,3 +1,13 @@
+body {
+  font-family: "Reddit Mono", monospace;
+  color: white;
+  background: linear-gradient(45deg, #464646, #19374b, #464646, #000000);
+  background-size: 300% 300%;
+  animation: gradientAnimation 12s ease-in-out infinite;
+  min-height: 100vh;
+}
+
+
 .App {
   text-align: center;
 }
@@ -27,6 +37,23 @@
 .App-link {
   color: #61dafb;
 }
+
+section {
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 50px;
+}
+
+
+
+@media (max-width: 768px) {
+  section {
+    width: 90%;
+    padding: 30px;
+  }
+}
+
 
 @keyframes App-logo-spin {
   from {
