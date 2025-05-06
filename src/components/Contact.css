@@ -31,3 +31,22 @@
     text-align: center;
     margin-bottom: 50px;
 }
+
+.contact-icon-lin, .contact-icon-git {
+    font-size: 45px;
+    color: #00aaff;
+    gap: 30px;
+    padding-bottom: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.contact-icon-lin:hover, .contact-icon-git:hover {
+    transform: scale(1.2); 
+    color: #ffffff; 
+}

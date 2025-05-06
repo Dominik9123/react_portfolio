@@ -8,18 +8,18 @@ const About = () => {
           
           <div className="about-section">
             <h2>Education</h2>
-            <p>I am currently studying at WSEI Kraków in my first year of Applied Computer Science.</p>
+            <p>I am currently studying at WSEI Kraków in my first year of Applied Computer Science,"Where I develop my skills in programming, system architecture, and web application design.</p>
+            <p>Before starting my university studies, I completed a technical secondary school specializing in IT.</p>
           </div>
   
           <div className="about-section">
             <h2>Passion & Interests</h2>
-            <p>Most of my free time is spent learning programming and exploring new technologies.</p>
-            <p>I love creating websites and discovering innovative tools that enhance my work.</p>
+            <p>Outside of my studies, I spend time developing my skills in JavaScript, React, and Node.js.. I love creating modern web applications and exploring tools that enhance the development process.</p>
           </div>
   
           <div className="about-section">
             <h2>Design Philosophy</h2>
-            <p className="about-subtitle">I focus on modern styles and clean design, ensuring users can easily navigate my projects.</p>
+            <p className="about-subtitle">In my projects, I prioritize clean, intuitive design that ensures user convenience. I adhere to UX/UI principles, focus on responsiveness, and strive to optimize code for performance. 🚀</p>
           </div>
         </div>
       </section>
